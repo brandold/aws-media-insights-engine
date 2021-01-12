@@ -71,4 +71,4 @@ export HISTORY_TABLE_NAME="test"
 
 cd "$docs_dir"
 
-sphinx-build -b html . ./output
+sphinx-build -b html . ../

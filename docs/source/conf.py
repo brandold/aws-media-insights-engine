@@ -12,13 +12,13 @@
 #
 import os
 import sys
-sys.path.insert(0, os.path.abspath('../source'))
+sys.path.insert(0, os.path.abspath('../../source'))
 
 
 # -- Project information -----------------------------------------------------
 
 project = 'Media Insights Engine'
-copyright = '2019, burkleaa, brandold, ianwow'
+copyright = '2021, burkleaa, brandold, ianwow'
 author = 'burkleaa, brandold, ianwow'
 
 
@@ -47,7 +47,6 @@ master_doc = 'index'
 #
 html_theme = 'smithy'
 html_theme_path = ['./theme']
-# html_theme_options = {'ga_id': os.environ.get('_CHALICE_GA_ID', '')}
 
 html_title = 'AWS Media Insights Engine'
 # A shorter title for the navigation bar.  Default is the same as html_title.
